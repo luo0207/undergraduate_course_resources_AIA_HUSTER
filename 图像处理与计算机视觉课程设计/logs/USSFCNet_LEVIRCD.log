@@ -1,0 +1,3 @@
+[2023-11-02 15:15:33,571][main.py][line:71][INFO] Net: USSFCNet_LEVIRCD
+[2023-11-02 15:15:33,571][main.py][line:72][INFO] Batch Size: 32
+[2023-11-02 15:15:33,571][main.py][line:73][INFO] Learning Rate: 0.0001

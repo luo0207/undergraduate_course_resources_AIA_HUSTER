@@ -1,0 +1,22 @@
+#python版本为 3.8,创建环境
+conda create -n CDTEST python=3.8
+#启动环境
+conda activate CDTEST
+#安装pytorch及cuda
+conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit=11.3 -c pytorch
+#安装包
+
+conda install tensorboardX
+pip install thop  #conda 无法安装
+pip install torchsummary   #conda 无法安装
+conda install scikit-learn
+conda install tqdm
+pip install opencv-python #conda无法安装
+#安装成功后，将path.py文件中的路径修改为自己的数据集路径,将model_path修改为绝对路径,相对路径会报错
+#测试请直接运行predict.py，即可输出四个指标，预测的图片在预测图像的文件夹predict下
+#例如：
+#test
+#|----A
+#|----B
+#|----Label
+#|----predict
